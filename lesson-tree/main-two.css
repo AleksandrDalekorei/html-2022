@@ -1,0 +1,40 @@
+#header {
+    background-color: silver;
+    width: 740px;
+    height: 200px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#sideB
+{
+    background-color: silver;
+    width: 540px;
+    height: 480px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#sideC
+{
+    background-color: silver;
+    width: 190px;
+    height: 480px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#slide-r
+{
+    display: flex;
+    flex-direction: column;
+}
+#slide-b
+{
+    display: flex;
+    align-items: center;
+}
