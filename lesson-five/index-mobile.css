@@ -1,0 +1,134 @@
+.A
+{
+    height: 190px;
+    width: 800px;
+    margin: 10px;
+}
+.B
+{
+    height: 400px;
+    width: 550px;
+    margin: 10px;
+}
+.C
+{
+    height: 400px;
+    width: 245px;
+    margin: 10px;
+}
+.Background
+{
+    background-color: #d9d9d9;
+}
+.divforflex
+{
+    display: flex;
+}
+.divforflex2
+{
+    display: flex;
+}
+p
+{
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+.TXT
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.border
+{
+    border: 5px solid #909090;
+    border-radius: 20px;
+    width: 820px;
+    margin: 20px;
+}
+.B2
+{
+    height: 190px;
+    width: 590px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.C2
+{
+    height: 190px;
+    width: 190px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.F2
+{
+    height: 390px;
+    width: 200px;
+    margin: 10px;
+}
+@media screen and (max-width: 400px)
+{
+    p
+    {
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+    .border
+    {
+        border: 5px solid #909090;
+        border-radius: 20px;
+        width: 380px;
+        margin: 5px;
+        margin-bottom: 15px;
+    }
+    .divforflex
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .divforflex2
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .A
+    {
+        height: 100px;
+        width: 370px;
+        margin: 5px;
+        text-align: center
+    }
+    .B
+    {
+        height: 100px;
+        width: 370px;
+        margin: 5px;
+    }
+    .C
+    {
+        height: 100px;
+        width: 370px;
+        margin: 5px;
+    }
+    .B2
+    {
+        height: 200px;
+        width: 370px;
+        margin: 5px;
+    }
+    .C2
+    {
+        height: 120px;
+        width: 120px;
+        margin: 5px;
+    }
+    .F2
+    {
+        height: 100px;
+        width: 370px;
+        margin: 5px;
+    }
+}
